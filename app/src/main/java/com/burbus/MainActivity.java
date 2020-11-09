@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.Sel
         this.getSupportActionBar().setTitle("");
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+//        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
         adapter = new CustomAdapter(lineaList, this);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);

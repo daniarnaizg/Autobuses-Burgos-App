@@ -1104,13 +1104,13 @@ public class Linea implements Serializable {
                 color = "#B35E82BF";
                 break;
             case "91":
-                color = "#B345606D";
+                color = "#2c3e50";
                 break;
             case "92":
-                color = "#B345606D";
+                color = "#2c3e50";
                 break;
             default:
-                color = "#B345606D";
+                color = "#2c3e50";
                 break;
         }
         return color;
