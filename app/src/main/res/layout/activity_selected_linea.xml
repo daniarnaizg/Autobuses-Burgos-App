@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedLineaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/selectedId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="10dp"
+                android:text="@string/id"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/selectedLinea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Linea seleccionada"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- IMAGEN -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="816dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/ad_view_map_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="220dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_ruta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/ida"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="DESDE NOMBREIDA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/laborables"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/laborablesIda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en dias laborables IDA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/sabados"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/sabadosIda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en sabados IDA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/domingos"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/domingosIda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en domingos y festivos IDA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/nocturno"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/nocturnoIda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios nocturnos IDA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <!--VUELTA-->
+
+                <TextView
+                    android:id="@+id/vuelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/laborables"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/laborablesVuelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en dias laborables VUELTA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/sabados"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/sabadosVuelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en sabados VUELTA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/domingos"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/domingosVuelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios en domingos y festivos VUELTA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/nocturno"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/nocturnoVuelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="Horarios nocturnos VUELTA"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button2"
+            app:elevation="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:onClick="verMapa"
+            android:src="@drawable/bus_map"
+            app:maxImageSize="35dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            app:elevation="0dp"
+            android:id="@+id/floating_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="90dp"
+            android:onClick="verParadas"
+            android:src="@drawable/rem_time"
+            app:maxImageSize="28dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

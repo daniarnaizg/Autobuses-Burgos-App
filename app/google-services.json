@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "2285893332",
+    "firebase_url": "https://autobuses-burgos-d69d2.firebaseio.com",
+    "project_id": "autobuses-burgos-d69d2",
+    "storage_bucket": "autobuses-burgos-d69d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2285893332:android:31e443d3f176fc0896ad41",
+        "android_client_info": {
+          "package_name": "com.burbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2285893332-pmf83m3elg31j38efsincu9v2vjum3ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC88ChMsITDQ3RfnD652s1JeKo0L818JYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2285893332-pmf83m3elg31j38efsincu9v2vjum3ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1638623502605136~6051810093"
+    }
+  ],
+  "configuration_version": "1"
+}

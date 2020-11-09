@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Autobuses Burgos</string>
+    <string name="title">title</string>
+    <string name="id">id</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="idLinea">idLinea</string>
+    <string name="minutos">minutos</string>
+    <string name="laborables">LABORABLES</string>
+    <string name="sabados">SÁBADOS</string>
+    <string name="domingos">DOMINGOS Y FESTIVOS</string>
+    <string name="nocturno">NOCTURNO</string>
+    <string name="autobuses_burgos">Autobuses Burgos</string>
+
+    <string name="main_banner_ad_unit_id">ca-app-pub-1638623502605136/2850931687</string>
+    <string name="linea_banner_ad_unit_id">ca-app-pub-1638623502605136/2560778334</string>
+    <string name="paradas_banner_ad_unit_id">ca-app-pub-1638623502605136/8934614992</string>
+    <string name="tiempo_banner_ad_unit_id">ca-app-pub-1638623502605136/6308451658</string>
+    <string name="mapa_banner_ad_unit_id">ca-app-pub-1638623502605136/1056124971</string>
+    <string name="tarjetas_banner_ad_unit_id">ca-app-pub-1638623502605136/4584256116</string>
+</resources>

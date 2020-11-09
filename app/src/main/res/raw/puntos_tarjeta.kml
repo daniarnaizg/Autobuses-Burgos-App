@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Capa sin nombre</name>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/icons/pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Plaza de España - Mercado</name>
+      <description>Parada equipada con máquina de autorrecarga.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.697758,42.343772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Arlanzón</name>
+      <description>Máquina equipada con máquina de autorrecarga.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.69926,42.340481,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 159</name>
+      <description>Parada equipada con máquina de autorrecarga.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.671644,42.351971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid, 29</name>
+      <description>Parada equipada con máquina de autorrecarga.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.699592,42.334462,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marqués de Berlanga</name>
+      <description>Parada equipada con máquina de autorrecarga.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.677888,42.361287,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 249</name>
+      <description>Establecimiento de alimentación.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.664316,42.354715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 80</name>
+      <description>Librería Libritos.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.695888,42.349727,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 76</name>
+      <description>Bazar Sanghai.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.695998,42.349513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 22</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.69787,42.345584,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 1</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.699324,42.343102,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 58- Clunia</name>
+      <description>Kiosco-papelería El revistero.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.696583,42.348038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Eladio Perlado, 43- Federico García Lorca</name>
+      <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.666687,42.349886,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arzobispo de Castro, 13-15</name>
+      <description>Kiosco- papelería Margof.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.66886,42.352269,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calzadas, 5</name>
+      <description>Kiosco- papelería El Duende.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.694185,42.343483,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Esteban Sáez de Alvarado, 28</name>
+      <description>Kiosco- papelería</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.665142,42.358231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Federico García Lorca</name>
+      <description>Kiosco- papelería</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.664866,42.35011,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Islas Baleares, 1 (Hospital Divino Valles)</name>
+      <description>Tienda del Hospital.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.691278,42.360494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jesús María Ordoño</name>
+      <description>Librería Paco.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.688542,42.344066,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lovaina, 6</name>
+      <description>Casa Olalla.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.73231,42.343578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid, 29</name>
+      <description>Kiosco- papelería Dryms.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.699474,42.334553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Reyes Católicos, 19</name>
+      <description>Librería Carmen.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.69581,42.345838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San José, 2- Ramón y Cajal</name>
+      <description>Kiosco- papelería Pablo.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.69485,42.338277,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>General Sanz Pastor</name>
+      <description>Kiosco- papelería</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.699488,42.344365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro de Cardeña, 4</name>
+      <description>Kiosco- papelería Begoña.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.692428,42.337942,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santiago Apóstol, 25</name>
+      <description>Dulces Elena.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.671708,42.349646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 228</name>
+      <description>Kiosko- papelería El Kiosco de Presen.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.665928,42.354241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Villalón, 7</name>
+      <description>Panadería Quintana</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.715943,42.341417,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 179</name>
+      <description>Papelería Trazos.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.670034,42.352867,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Poza, 97</name>
+      <description>Kiosco- papelería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.655974,42.363857,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fuentecillas, 94</name>
+      <description>Papelería La Moneda.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.725181,42.34424,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Parque de la Luz, 2</name>
+      <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.679765,42.359095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paseo del Espolón, 16</name>
+      <description>Librería Música y Deportes.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.702328,42.340212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Antiguas Naves de Taglosa, 7</name>
+      <description>Kiosco-papelería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.660915,42.355166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Esteban Sáez de Alvarado, 23</name>
+      <description>Kiosco- papelería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.664906,42.357648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pedro Poveda de Castroverde, 3</name>
+      <description>Papelería Voguen.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.667138,42.357997,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 245</name>
+      <description>Locutorio Bodega latina.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.664984,42.354542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eladio Perlado, 21</name>
+      <description>Locutorio.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.667266,42.352114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Luis Alberdi, 1</name>
+      <description>Frutos secos La Comba.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.666985,42.350841,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cantabria, 57</name>
+      <description>Frutos secos Golosín.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.689952,42.351234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro y San Felices, 37</name>
+      <description>Frutos secos Caprichos.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.706271,42.332265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro y San Felices, 57</name>
+      <description>Videoclub- cafetería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.709213,42.330952,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belorado, 2</name>
+      <description>Librería Aloma.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.691787,42.343967,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rosa Chacel, 9</name>
+      <description>Kiosco-papelería El pasadizo.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.658061,42.363396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nuestra Señora de Fátima, 3</name>
+      <description>Papelería Sarita</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.675367,42.350766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>María Moliner, 7</name>
+      <description>Kiosco- papelería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.658168,42.363863,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Victoria Balfé, 28</name>
+      <description>Librería G-3.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.679808,42.360827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 41</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.687941,42.343606,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Arcos, 4</name>
+      <description>Papelería Melgosa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.709817,42.330687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Juan de Padilla- Juan Bravo</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.684019,42.350715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida Constitución Española, 21-23</name>
+      <description>Estanco.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.673747,42.348253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de Aragón, 8</name>
+      <description>Librería Press.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.707489,42.329925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Emperador, 34</name>
+      <description>Papelería del Barrio.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.713379,42.341946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. del Cid, 96 (Hospital General Yagüe)</name>
+      <description>Kiosco del Hospital.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.694453,42.351868,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Reyes Católicos, 38</name>
+      <description><![CDATA[Kiosco de prensa.<br><br>Avenida Reyes Católicos, 38-40- C/ Soria.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.691235,42.348451,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Segovia, 3</name>
+      <description>Locutorio Comercial latina.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.689303,42.344946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Águeda, 24</name>
+      <description>Alimentación Santa Águeda.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.707414,42.339752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza Santo Domingo de Guzmán</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.700054,42.341175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 37</name>
+      <description>Papelería Alonso.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.691717,42.342956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Poza, 24</name>
+      <description>Librería Zanita.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.663651,42.356887,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pablo Casals, 8</name>
+      <description><![CDATA[Papelería Moreno.<br><br>Pablo Casals-Pedro Alfaro.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.664962,42.353462,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Juan de Ortega, 7</name>
+      <description>Papelería Gárol.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.668463,42.348241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santiago Apóstol, 19</name>
+      <description><![CDATA[Papelería- librería Santiago.<br><br>Santiago Apóstol, 19- C/ San Bruno.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.672633,42.349642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Eladio Perlado, 12</name>
+      <description>Videoclub Sesión continua.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.668125,42.353494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avda. Eladio Perlado, 42</name>
+      <description>Papelería Popeye.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.667299,42.349981,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eladio Perlado, 45</name>
+      <description><![CDATA[Locutorio.<br><br>Avenida Eladio Perlado, 45- Federico García Lorca.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.666655,42.349624,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C/ Barcelona- C/ Santiago</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.669804,42.349652,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C/ El Parral, 9 (Villatoro)</name>
+      <description>Panadería Dulcicor.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.692415,42.374699,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salas, 7</name>
+      <description>Papelería Salas.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.698597,42.334178,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro y San Felices- Santa Ana</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.704002,42.332975,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Julián, 11</name>
+      <description>Papelería Pikachu.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.698133,42.335703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pablo- Progreso</name>
+      <description>Kiosco de prensa.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.699646,42.336944,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burgense, 20</name>
+      <description>Librería Bea.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.695784,42.33862,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Concepción, 9</name>
+      <description>Librería- papelería Denis.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.702044,42.33702,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barriada Juan XXIII, 12</name>
+      <description>Dulces Santiago.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.674186,42.350901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Condesa Mencía, 143</name>
+      <description>Estanco G-3.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.678875,42.360034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Pedro y San Felices, 29</name>
+      <description>Bar- cafetería Bárcena.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.705375,42.332707,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 47</name>
+      <description>Frutos secos Algrano</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.696728,42.348697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 89</name>
+      <description>Papelería y Lotería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.692396,42.354037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laín Calvo, 9</name>
+      <description>Frutos secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.702374,42.34176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de Alonso Martínez, 8</name>
+      <description>Estanco</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.700526,42.343415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Centro Comercial "Camino de la Plata"]]></name>
+      <description>Frutos secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.68175,42.349156,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vitoria, 167</name>
+      <description>Frutos secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.671451,42.352106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mariana Pineda, 5</name>
+      <description>Frutos secos Piecitos.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.719913,42.345693,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hornillos, 15</name>
+      <description>Alimentación Surko.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.731736,42.341183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hornillos, 27</name>
+      <description>Cafetería- alimentación.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.733082,42.342135,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Glorieta Luis Braille, 5</name>
+      <description>Papelería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.663812,42.351321,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de Roma, 5</name>
+      <description>Frutos secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.66887,42.3506,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Esteban Sáez de Alvarado, 1</name>
+      <description>Frutos secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.66397,42.356479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Farmaceútico Obdulio Fernández, 40</name>
+      <description>Papelería Trazos.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.681514,42.347428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Padre Diego Luis de San Vitores, 7</name>
+      <description>Papelería Cristina.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.690003,42.338931,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Comuneros de Castilla, 7</name>
+      <description>Papelería- lotería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.685055,42.350536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Poza, 91</name>
+      <description>Panadería.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.656492,42.363388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de Cádiz, 4</name>
+      <description>Panadería Soraya.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.666193,42.358922,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza Mayor- Ayuntamiento</name>
+      <description><![CDATA[Ayuntamiento de Burgos. Casa Consistorial.<br><br>Sólo recarga (máquina de autoservicio)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.701588,42.340545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Esteban Sáez de Alvarado- Sevilla</name>
+      <description>Estanco nº 6</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.665807,42.358829,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Condesa Mencía, 131</name>
+      <description>Frutos Secos Algrano.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.679562,42.359606,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Arlanzón, 4</name>
+      <description>Copistería- papelería Copy-Red</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.697661,42.340842,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Villalón, 9</name>
+      <description>Papelería Villalón, 9</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.715675,42.3416,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Juan de Padilla (Centro Cívico)</name>
+      <description><![CDATA[Centro Cívico Río Vena.<br><br>Sólo recarga (máquina de autoservicio)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.684282,42.352233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fundación Sonsoles Ballvé (Centro Cívico)</name>
+      <description><![CDATA[Centro Cívico Capiscol.<br><br>Sólo recarga (máquina de autoservicio)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.670657,42.348855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid, 1</name>
+      <description>Locutorio Madrid 1</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.701652,42.338031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C/ Aranda de Duero</name>
+      <description>Panadería Hnos. Rodríguez</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.700976,42.337579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gumiel de Izán (Centro Cïvico)</name>
+      <description><![CDATA[Centro Cívico Huelgas- Barrio del Pilar.<br><br>Sólo recarga (máquina de autoservicio)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.717499,42.334787,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Parque de San Agustín (Centro Cívico)</name>
+      <description><![CDATA[Centro Cívico San Agustín<br><br>Sólo recarga (máquina de autoservicio)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.70074,42.333455,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alfonso XI, 11</name>
+      <description>Papelería Conmar.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.673827,42.352939,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mercado Norte (Plaza de España)</name>
+      <description>Panadería Hermanos Rodriguez. Puesto 93.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.69765,42.343495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arco de San Juan</name>
+      <description>Estanco.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.696824,42.342765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenida del Cid, 82</name>
+      <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.695676,42.349989,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paseo del Espolón, 30</name>
+      <description>Librería del Espolón</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.700891,42.340672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Las Claustrillas, 5</name>
+      <description>Dulces Gomi-Sweet.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.725374,42.338277,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calle del Carmen, 10</name>
+      <description>El Nº 10 en chuches.</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -3.704152,42.335342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
