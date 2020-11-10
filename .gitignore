@@ -90,3 +90,4 @@ lint/tmp/
 # Files
 app/src/release/res/values/google_maps_api.xml
 gradle.properties
+app/src/debug/res/values/google_maps_api.xml
