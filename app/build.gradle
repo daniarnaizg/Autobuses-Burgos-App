@@ -2,14 +2,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('D:\\Proyectos\\__KEYS\\burbus_key.jks')
-            storePassword 'BurBus123!'
-            keyAlias = 'Upload'
-            keyPassword 'BurBus123!'
-        }
-    }
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 

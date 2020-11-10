@@ -26,7 +26,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1638623502605136~6051810093"/>
+            android:value="@string/ADMOB_APPLICATION_ID"/>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
